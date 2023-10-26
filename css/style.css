@@ -5,3 +5,22 @@
 .border-solid-2 {
     border: 2px solid black;
 }
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    background: grey;
+}
