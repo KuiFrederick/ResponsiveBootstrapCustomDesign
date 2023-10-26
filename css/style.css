@@ -2,6 +2,6 @@
     width: 35%;
 }
 
-.height-70 {
-    height: 70px;
+.border-solid-2 {
+    border: 2px solid black;
 }
