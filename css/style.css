@@ -24,3 +24,14 @@
     height: 400px;
     background: grey;
 }
+
+.text-shadow-h1 {
+    text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.402);
+}
+
+.bg-grey {
+    --bs-bg-opacity: 0.15;
+    --bs-grey-rgb: 116, 116, 117;
+    /* Update the RGB values to the desired grey color */
+    background-color: rgba(var(--bs-grey-rgb), var(--bs-bg-opacity)) !important;
+}
